@@ -1,0 +1,29 @@
+.icon{
+    font-size: 38px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover{
+    transform: scale(1.5) translate(-10px);
+    color: aqua;
+}
+.body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+.dock{
+    display: flex;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
